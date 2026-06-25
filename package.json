@@ -6,7 +6,8 @@
     "start": "node index.js",
     "dev": "npx prisma generate --schema=../../prisma/schema.prisma && nodemon index.js",
     "dev-no-generate": "nodemon index.js",
-    "prisma:generate": "prisma generate --schema=../../prisma/schema.prisma"
+    "prisma:generate": "prisma generate --schema=../../prisma/schema.prisma",
+    "build": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.0.0",
